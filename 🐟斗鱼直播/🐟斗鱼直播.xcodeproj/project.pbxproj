@@ -13,6 +13,7 @@
 		6EE59FEE1E82B58D002F15FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EE59FEC1E82B58D002F15FF /* LaunchScreen.storyboard */; };
 		6EE59FF91E82B58E002F15FF /* ______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE59FF81E82B58E002F15FF /* ______Tests.swift */; };
 		6EE5A0041E82B58E002F15FF /* ______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE5A0031E82B58E002F15FF /* ______UITests.swift */; };
+		6EE5A0191E82BCFA002F15FF /* XSCMainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE5A0181E82BCFA002F15FF /* XSCMainController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		6EE59FFF1E82B58E002F15FF /* 🐟斗鱼直播UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "🐟斗鱼直播UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EE5A0031E82B58E002F15FF /* ______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______UITests.swift"; sourceTree = "<group>"; };
 		6EE5A0051E82B58E002F15FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EE5A0181E82BCFA002F15FF /* XSCMainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSCMainController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 		6EE5A0151E82BA85002F15FF /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				6EE5A0181E82BCFA002F15FF /* XSCMainController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EE59FE41E82B58D002F15FF /* AppDelegate.swift in Sources */,
+				6EE5A0191E82BCFA002F15FF /* XSCMainController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
