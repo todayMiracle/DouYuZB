@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E09D57F1E83652800F49C6F /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E09D57D1E83652800F49C6F /* Home.storyboard */; };
+		6E09D5811E83657600F49C6F /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E09D5801E83657600F49C6F /* Live.storyboard */; };
+		6E09D5841E83659C00F49C6F /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E09D5821E83659C00F49C6F /* Follow.storyboard */; };
+		6E09D5861E8365CD00F49C6F /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E09D5851E8365CD00F49C6F /* Profile.storyboard */; };
 		6EE59FE41E82B58D002F15FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE59FE31E82B58D002F15FF /* AppDelegate.swift */; };
 		6EE59FE91E82B58D002F15FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EE59FE71E82B58D002F15FF /* Main.storyboard */; };
 		6EE59FEB1E82B58D002F15FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EE59FEA1E82B58D002F15FF /* Assets.xcassets */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E09D57E1E83652800F49C6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
+		6E09D5801E83657600F49C6F /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
+		6E09D5831E83659C00F49C6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Follow.storyboard; sourceTree = "<group>"; };
+		6E09D5851E8365CD00F49C6F /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		6EE59FE01E82B58D002F15FF /* 🐟斗鱼直播.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "🐟斗鱼直播.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EE59FE31E82B58D002F15FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6EE59FE81E82B58D002F15FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -100,6 +108,10 @@
 				6EE5A0111E82BA85002F15FF /* Classes */,
 				6EE59FE31E82B58D002F15FF /* AppDelegate.swift */,
 				6EE59FE71E82B58D002F15FF /* Main.storyboard */,
+				6E09D5851E8365CD00F49C6F /* Profile.storyboard */,
+				6E09D5821E83659C00F49C6F /* Follow.storyboard */,
+				6E09D5801E83657600F49C6F /* Live.storyboard */,
+				6E09D57D1E83652800F49C6F /* Home.storyboard */,
 				6EE59FEA1E82B58D002F15FF /* Assets.xcassets */,
 				6EE59FEC1E82B58D002F15FF /* LaunchScreen.storyboard */,
 				6EE59FEF1E82B58D002F15FF /* Info.plist */,
@@ -294,6 +306,10 @@
 				6EE59FEE1E82B58D002F15FF /* LaunchScreen.storyboard in Resources */,
 				6EE59FEB1E82B58D002F15FF /* Assets.xcassets in Resources */,
 				6EE59FE91E82B58D002F15FF /* Main.storyboard in Resources */,
+				6E09D5811E83657600F49C6F /* Live.storyboard in Resources */,
+				6E09D57F1E83652800F49C6F /* Home.storyboard in Resources */,
+				6E09D5861E8365CD00F49C6F /* Profile.storyboard in Resources */,
+				6E09D5841E83659C00F49C6F /* Follow.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +371,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		6E09D57D1E83652800F49C6F /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E09D57E1E83652800F49C6F /* Base */,
+			);
+			name = Home.storyboard;
+			sourceTree = "<group>";
+		};
+		6E09D5821E83659C00F49C6F /* Follow.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E09D5831E83659C00F49C6F /* Base */,
+			);
+			name = Follow.storyboard;
+			sourceTree = "<group>";
+		};
 		6EE59FE71E82B58D002F15FF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -570,6 +602,7 @@
 				6EE5A00A1E82B58E002F15FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EE5A00B1E82B58E002F15FF /* Build configuration list for PBXNativeTarget "🐟斗鱼直播Tests" */ = {
 			isa = XCConfigurationList;
@@ -578,6 +611,7 @@
 				6EE5A00D1E82B58E002F15FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EE5A00E1E82B58E002F15FF /* Build configuration list for PBXNativeTarget "🐟斗鱼直播UITests" */ = {
 			isa = XCConfigurationList;
@@ -586,6 +620,7 @@
 				6EE5A0101E82B58E002F15FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
