@@ -39,9 +39,9 @@
 
 /* Begin PBXFileReference section */
 		6E09D57E1E83652800F49C6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
-		6E09D5801E83657600F49C6F /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
+		6E09D5801E83657600F49C6F /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Live.storyboard; path = ../../Live.storyboard; sourceTree = "<group>"; };
 		6E09D5831E83659C00F49C6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Follow.storyboard; sourceTree = "<group>"; };
-		6E09D5851E8365CD00F49C6F /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		6E09D5851E8365CD00F49C6F /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Profile.storyboard; path = ../../Profile.storyboard; sourceTree = "<group>"; };
 		6EE59FE01E82B58D002F15FF /* 🐟斗鱼直播.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "🐟斗鱼直播.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EE59FE31E82B58D002F15FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6EE59FE81E82B58D002F15FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -107,11 +107,6 @@
 			children = (
 				6EE5A0111E82BA85002F15FF /* Classes */,
 				6EE59FE31E82B58D002F15FF /* AppDelegate.swift */,
-				6EE59FE71E82B58D002F15FF /* Main.storyboard */,
-				6E09D5851E8365CD00F49C6F /* Profile.storyboard */,
-				6E09D5821E83659C00F49C6F /* Follow.storyboard */,
-				6E09D5801E83657600F49C6F /* Live.storyboard */,
-				6E09D57D1E83652800F49C6F /* Home.storyboard */,
 				6EE59FEA1E82B58D002F15FF /* Assets.xcassets */,
 				6EE59FEC1E82B58D002F15FF /* LaunchScreen.storyboard */,
 				6EE59FEF1E82B58D002F15FF /* Info.plist */,
@@ -153,6 +148,7 @@
 		6EE5A0121E82BA85002F15FF /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				6E09D5821E83659C00F49C6F /* Follow.storyboard */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
@@ -160,6 +156,7 @@
 		6EE5A0131E82BA85002F15FF /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				6E09D57D1E83652800F49C6F /* Home.storyboard */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -167,6 +164,7 @@
 		6EE5A0141E82BA85002F15FF /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				6E09D5801E83657600F49C6F /* Live.storyboard */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -174,6 +172,7 @@
 		6EE5A0151E82BA85002F15FF /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				6EE59FE71E82B58D002F15FF /* Main.storyboard */,
 				6EE5A0181E82BCFA002F15FF /* XSCMainController.swift */,
 			);
 			path = Main;
@@ -182,6 +181,7 @@
 		6EE5A0161E82BA85002F15FF /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				6E09D5851E8365CD00F49C6F /* Profile.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -377,6 +377,7 @@
 				6E09D57E1E83652800F49C6F /* Base */,
 			);
 			name = Home.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		6E09D5821E83659C00F49C6F /* Follow.storyboard */ = {
@@ -385,6 +386,7 @@
 				6E09D5831E83659C00F49C6F /* Base */,
 			);
 			name = Follow.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		6EE59FE71E82B58D002F15FF /* Main.storyboard */ = {
@@ -393,6 +395,7 @@
 				6EE59FE81E82B58D002F15FF /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		6EE59FEC1E82B58D002F15FF /* LaunchScreen.storyboard */ = {
